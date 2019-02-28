@@ -1,0 +1,60 @@
+
+// PAGE HEADER
+
+#page-header {
+    height: 12rem;
+    background: url(../img/image2.jpeg);
+    background-position: 0 -380px;
+    background-attachment: fixed;
+    color: $white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px ;
+}
+
+// ABOUT SECTION
+
+#about {
+    
+    .about-img {
+        margin-top: -50px;
+        transition: .3s;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    
+}
+
+
+#icon-boxes {
+    
+    .bg-primary-1 {
+        background-color: $color-primary;
+    }
+    
+    .bg-primary-2 {
+        background-color: $color-primary-light;
+    }
+    
+    .card-body {
+        transition: .2s;
+        transform: scale(0.9);
+        
+        &:hover {
+            transform: scale(1);
+        }
+    }
+}
+
+// TESTIMONIALS
+
+#testimonials {
+    background-color: $color-dark;
+    color: $color-primary-light;
+    
+    & footer {
+        color: $color-primary-light;
+    }
+    
+}

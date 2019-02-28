@@ -1,0 +1,200 @@
+body {
+  background: #edf5e1;
+  color: #05386B;
+  overflow-x: hidden; }
+
+.navbar {
+  background-color: #379683; }
+  .navbar .nav-link {
+    color: #05386B !important;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-weight: 600;
+    transition: color .2s; }
+    .navbar .nav-link:hover {
+      color: #Bee4af !important; }
+  .navbar .active {
+    color: #Bee4af; }
+  .navbar .nav-item.active {
+    border-left: #Bee4af 1px solid; }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); }
+
+.primary-overlay:after,
+.secondary-overlay:after,
+.tertiary-overlay:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block; }
+
+.primary-overlay:after {
+  background: rgba(5, 56, 107, 0.6); }
+
+.secondary-overlay:after {
+  background: rgba(58, 42, 8, 0.4); }
+
+.tertiary-overlay:after {
+  background: rgba(34, 34, 34, 0.6); }
+
+.btn-primary {
+  background: #379683;
+  border: #5cdB95;
+  color: #Bee4af; }
+  .btn-primary:hover {
+    background: #5cdB95; }
+
+.btn-outline-primary {
+  border-color: #05386B;
+  color: #05386B;
+  transition: .2s; }
+  .btn-outline-primary:hover {
+    border-color: #05386B;
+    background: #05386B;
+    color: #Bee4af; }
+  .btn-outline-primary:active {
+    background-color: #05386B !important;
+    transform: scale(0.96); }
+
+.carousel-item {
+  height: 85vh; }
+
+.carousel-image-1 {
+  background: url("../img/imagemain.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 40vh;
+  background: url("../img/lights.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #Bee4af; }
+  #home-heading h1 {
+    padding-top: 6rem; }
+
+#info {
+  background-color: #Bee4af; }
+
+#video-play {
+  position: relative;
+  min-height: 40vh;
+  background: url("../img/media1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #Bee4af; }
+  #video-play a {
+    color: #Bee4af; }
+  #video-play .video-padding {
+    padding-top: 5rem; }
+  #video-play .play-btn {
+    transition: .2s; }
+    #video-play .play-btn:hover {
+      transform: scale(1.1); }
+
+#gallery img {
+  transition: transform .2s, opacity .2s;
+  opacity: .9; }
+  #gallery img:hover {
+    transform: scale(1.1);
+    opacity: 1; }
+
+#newsletter {
+  background-color: #05386B;
+  color: #5cdB95;
+  padding: 6rem 0; }
+
+#main-footer {
+  background-color: #379683;
+  color: #Bee4af;
+  font-weight: 600; }
+
+#page-header {
+  height: 12rem;
+  background: url(../img/image2.jpeg);
+  background-position: 0 -380px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#about .about-img {
+  margin-top: -50px;
+  transition: .3s; }
+  #about .about-img:hover {
+    transform: scale(1.05); }
+
+#icon-boxes .bg-primary-1 {
+  background-color: #5cdB95; }
+
+#icon-boxes .bg-primary-2 {
+  background-color: #Bee4af; }
+
+#icon-boxes .card-body {
+  transition: .2s;
+  transform: scale(0.9); }
+  #icon-boxes .card-body:hover {
+    transform: scale(1); }
+
+#testimonials {
+  background-color: #05386B;
+  color: #Bee4af; }
+  #testimonials footer {
+    color: #Bee4af; }
+
+#faq {
+  background: #05386B;
+  color: #Bee4af; }
+  #faq .card {
+    border: #444; }
+    #faq .card-body, #faq .card-header {
+      background: #333; }
+  #faq a {
+    color: #fff;
+    text-decoration: none; }
+
+#services .bg-dark {
+  background: #379683 !important; }
+
+#services .btn-primary {
+  border: #05386B;
+  transition: .2s;
+  opacity: .9; }
+  #services .btn-primary:hover {
+    opacity: 1; }
+  #services .btn-primary:active {
+    transform: scale(0.96);
+    background-color: #379683; }
+
+#blog .card footer {
+  color: #05386B; }
+
+#staff {
+  background-color: #05386B;
+  color: #Bee4af; }
+  #staff img {
+    transition: all .2s; }
+    #staff img:hover {
+      transform: scale(1.1); }

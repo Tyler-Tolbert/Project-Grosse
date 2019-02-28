@@ -1,0 +1,32 @@
+body {
+    background: $color-light;
+    color: $color-dark;
+    
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: $color-primary-dark;
+    
+    & .nav-link {
+        color: $color-dark !important;
+        font-size: 1rem;
+        text-transform: uppercase;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        font-weight: 600;
+        transition: color .2s;
+        
+        &:hover {
+            color: $color-primary-light !important;
+        }
+    } 
+    
+    .active {
+        color: $color-primary-light;
+    }
+    
+    & .nav-item.active {
+        border-left: $color-primary-light 1px solid;
+    }
+} 

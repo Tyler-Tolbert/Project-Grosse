@@ -1,0 +1,14 @@
+#staff {
+    background-color: $color-dark;
+    color: $color-primary-light;
+
+
+    img {
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}
